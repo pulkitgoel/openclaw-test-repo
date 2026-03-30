@@ -1,0 +1,70 @@
+# Test Demo File
+# Created on: 2026-03-30
+
+This is a test file created by PulkitVerse.
+
+## Example 1: Quick Reference
+
+Your Current Projects:
+1. ChartLens - Stock analysis tool
+   - Location: /home/azureuser/.openclaw/workspace/stock_analyzer.py
+   - Status: Published on GitHub (https://github.com/pulkitgoel/chartlens)
+   - Features: EMA analysis, trend detection, support/resistance, entry points
+
+2. PLTR Alert System
+   - Location: /home/azureuser/.openclaw/workspace/pltr_daily_alert.py
+   - Status: Active cron job (runs weekdays at 9 AM IST)
+   - Your position: 3.13 shares @ $148.00 avg
+
+## Example 2: Quick Calculations
+
+### PLTR Position Math
+Current: 3.13 shares @ $148.00 = $463.24 total value
+
+Averaging Down Scenario:
+If you add 3.13 more shares @ $143.06:
+- Additional cost: 3.13 x $143.06 = $447.78
+- Total shares: 6.26
+- Total value: $463.24 + $447.78 = $911.02
+- New average: $911.02 / 6.26 = $145.53
+- Average reduction: $148.00 - $145.53 = $2.47
+- Potential upside: ($145.53 - $143.06) / $143.06 = 1.73%
+
+## Example 3: Stock Analysis Notes
+
+Technical Indicators to Remember:
+- EMA 5, 50, 100, 200 for trend direction
+- EMA 200 crossing = Golden/Death Cross signals
+- RSI > 70 = Overbought
+- RSI < 30 = Oversold
+- Volume spike = Trend change signal
+
+Entry Rules:
+- Buy on pullback to support in uptrend
+- Avoid buying in strong downtrend without reversal
+- Use stop losses below key support levels
+- Take partial profits at resistance zones
+
+## Example 4: Useful Commands
+
+### ChartLens Usage
+./stock_analyze AAPL        # Analyze Apple stock
+./stock_analyze TSLA        # Analyze Tesla
+./stock_analyze TSLA --ai    # With AI insights
+
+### Cron Management
+openclaw cron list             # List all jobs
+openclaw cron disable <id>      # Disable a job
+openclaw cron delete <id>        # Delete a job
+
+### Git Operations
+cd /home/azureuser/.openclaw/workspace
+git add .
+git commit -m "Update"
+git push
+
+---
+
+End of Test Demo
+
+File created successfully by PulkitVerse.
